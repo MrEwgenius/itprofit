@@ -9,6 +9,7 @@
 @import "./variables";
 @import "./mixin";
 @import "./form.scss";
+@import "./modal.scss";
 
 html,
 body {
@@ -59,4 +60,8 @@ output {
     padding: 0 15px;
     position: relative;
     z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
