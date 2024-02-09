@@ -13,7 +13,7 @@ function isValidPhone(Phone) {
 const bodyParser = require('body-parser');
 const port = 9090;
 
-
+ 
 app.use(cors());
 app.use(bodyParser.json());
 app.post("/api/registration", (req, res) => {

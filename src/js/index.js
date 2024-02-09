@@ -9,7 +9,7 @@ let inputPhone = form.querySelector('.form-input-phone')
 let textAreaDescription = form.querySelector('.form-description')
 
 import "../scss/index.scss";
-
+ 
 
 let im = new Inputmask("+375 (99) 999-99-99");
 im.mask(inputPhone);
@@ -48,7 +48,7 @@ function getData(e) {
                 inputsClear([inputEmail])
                 inputsClear([inputPhone])
                 inputsClear([textAreaDescription])
-                
+                 
                 alert(data.message)
 
             } else if (data.status === 'error') {
